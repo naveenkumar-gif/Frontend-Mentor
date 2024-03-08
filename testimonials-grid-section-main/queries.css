@@ -1,0 +1,15 @@
+@media (max-width: 26em) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  html {
+    font-size: 56.25%;
+  }
+  .para-1,
+  .para-2,
+  .para-3,
+  .para-4,
+  .para-5 {
+    font-size: 1.8rem;
+  }
+}
