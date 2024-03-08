@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  line-height: 1;
+  font-family: "Inter", sans-serif;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container {
+  width: 800px;
+  margin: 200px auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  box-shadow: 5px 4px 16px rgba(0, 0, 0, 0.7);
+
+  border-radius: 7px;
+}
+.container-1 {
+  width: 800px;
+  padding: 3.2rem;
+}
+.container-2 {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.head {
+  color: hsl(179, 62%, 43%);
+  font-size: 3.2rem;
+  letter-spacing: -1px;
+  margin: 2.4rem 0;
+}
+
+.para-1 {
+  color: hsl(71, 73%, 54%);
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 1.4rem;
+}
+
+.para-2 {
+  color: #b3b3b3;
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+.child-2 {
+  width: 400px;
+  background-color: teal;
+  padding: 3.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  justify-content: center;
+}
+
+.head-2 {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 1.2rem;
+}
+
+.item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.prices {
+  color: #fff;
+  font-size: 3.2rem;
+  margin-right: 0.8rem;
+  font-weight: 700;
+}
+
+.head-para-1 {
+  font-size: 1.8rem;
+  color: #b3b3b3;
+}
+
+.head-para-2 {
+  font-size: 2rem;
+  color: #e9ecef;
+  margin-bottom: 2.4rem;
+}
+
+.head-link:link,
+.head-link:visited {
+  text-align: center;
+  text-decoration: none;
+  background-color: #82c91e;
+  padding: 1.2rem 1.4rem;
+  font-size: 1.8rem;
+  border-radius: 5px;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-weight: 700;
+}
+.child-3 {
+  width: 400px;
+  background-color: #1098ad;
+  padding: 3.2rem;
+}
+
+.head-3 {
+  font-size: 2rem;
+  color: #fff;
+  /* margin:  0 0 ; */
+  /* margin-bottom: 2.4rem; */
+  margin-left: 1.4rem;
+  margin-bottom: 2.4rem;
+}
+
+.list {
+  color: #cccccc;
+  font-size: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  list-style: none;
+
+  margin-left: 1.4rem;
+}
+/* 
+
+- Cyan: hsl(179, 62%, 43%)
+- Bright Yellow: hsl(71, 73%, 54%) */
